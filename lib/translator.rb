@@ -11,7 +11,7 @@ def load_library(library)
    japanese = translation[1]
    new_hash["get_meaning"][japanese] = meaning
    new_hash["get_emoticon"][english] = japanese
- end
+  end
   new_hash
 end
 

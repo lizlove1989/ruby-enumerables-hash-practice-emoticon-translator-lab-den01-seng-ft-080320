@@ -13,9 +13,7 @@ def load_library(library)
    new_hash["get_emoticon"][english] = japanese
   end
   new_hash
-end
-
-
+  
   emoticon_hash["get_emoticon"] = Hash.new
   emoticon_hash["get_meaning"] = Hash.new
 
